@@ -1,0 +1,6 @@
+
+<div class="parent-container">
+    <app-header [heading]="'Periodic table elements list view'"></app-header>
+    <app-search class="search" (onSearch)="onSearchParent($event)"></app-search>
+    <app-table [searchQuery]="searchQueryParent"></app-table>
+</div>

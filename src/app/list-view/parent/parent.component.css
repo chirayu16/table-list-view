@@ -1,0 +1,12 @@
+.parent-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 24px;
+    justify-content: center;
+}
+
+.search {
+    display: flex;
+    justify-content: center;    
+}
